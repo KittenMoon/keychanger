@@ -7,7 +7,7 @@ zw := 0
 Gui, +AlwaysOnTop
 Gui, Add, ListBox, gActionz vChoice w200 h350
 
-Loop, Read, db.txt
+Loop, Read, db.fsv
 {
 	if (indi == 0)
 	{
