@@ -69,7 +69,7 @@ titles = []
 for x in indext:
     titles.append(x)
 
-with open('db.🐸sv', 'w', encoding="utf8") as fp:
+with open('db.fsv', 'w', encoding="utf8") as fp:
     fp.write('\ufeff')
     fp.write(','.join(titles))
     fp.write('\n')
