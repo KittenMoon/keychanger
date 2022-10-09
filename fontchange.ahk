@@ -134,9 +134,9 @@ ChangeKey(key)
 	{
 		Send {!}
 	}
-	else if (out == "#")
+	else if (key == "NUM")
 	{
-		Send {#}
+		SendRaw %out%
 	}
 	else if (out == "^")
 	{
